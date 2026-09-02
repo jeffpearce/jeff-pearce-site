@@ -1,0 +1,40 @@
+baseURL = "https://jeff-pearce.com/"
+languageCode = "en-us"
+title = "Jeff Pearce - macOS/iOS Developer"
+theme = "PaperMod"
+
+[params]
+  description = "macOS/iOS Developer"
+  # author = "Jeff Pearce"
+  showSectionContent = true
+
+  # Clean, non-blog look
+  ShowReadingTime = false
+  hideMeta = true
+  ShowBreadCrumbs = false
+  ShowPostNavLinks = false
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSection = false
+  ShowRssButtonInHome = false
+
+# Navigation
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Apps"
+  url = "/apps/"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
+
+[[menu.main]]
+  name = "Support"
+  url = "/support/"
+  weight = 4
+

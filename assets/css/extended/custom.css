@@ -1,0 +1,10 @@
+/* Align the header (site title + menu) with the article column.
+   PaperMod defaults --nav-width to 1024px while --main-width is 720px,
+   which makes the site title hang to the left of the content. */
+:root {
+    --nav-width: var(--main-width);
+}
+
+.logo a {
+    font-size: 20px;
+}
